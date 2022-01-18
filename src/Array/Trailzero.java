@@ -13,9 +13,12 @@ public class Trailzero {
         int n,f=1,c=0;
         Scanner s=new Scanner(System.in);
         n=s.nextInt();
+
         for(int i=1;i<=n;i++)
             f=f*i;
-        System.out.println(f);
+
+        System.out.println("Factorial of " + n +" is : "+ f);
+
         while (f!=0)
         {
             int r=f%10;
@@ -25,7 +28,6 @@ public class Trailzero {
                 break;
             f=f/10;
         }
-        System.out.println(c);
+        System.out.println("No. of trailing zeros are: "+ c);
     }
-
 }
