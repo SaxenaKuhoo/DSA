@@ -2,10 +2,12 @@ package Array;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+
 //Q. Write a program to input the elements of a two- dimensional array.Then from this array,
 //        make two arrays one that stores all odd elements of the two-dimensional array
 //        and the other that stores all even elements of the array.
 //        Note:-  Resulting arrays will be of ArrayList type
+
 public class Oddeven {
     public static void main(String[] args) {
         Scanner s =new Scanner(System.in);
