@@ -3,10 +3,7 @@ package Queue;
 //
 //        For a given queue containing all integer data, reverse the first K elements.
 //        You have been required to make the desired change in the input queue itself.
-//
-//
-//
-//
+
 //        Input Format :
 //        The first line of input would contain two integers N and K, separated by a single space. They denote the total number of elements in the queue and the count with which the elements need to be reversed respectively.
 //
